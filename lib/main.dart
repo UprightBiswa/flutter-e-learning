@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return CupertinoApp(
       onGenerateRoute: router.generateRoute,
       onUnknownRoute: (settings) => CupertinoPageRoute(
         builder: (context) => UndefinedScreen(

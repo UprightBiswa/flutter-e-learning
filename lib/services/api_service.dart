@@ -5,7 +5,8 @@ import 'dart:convert';
 import 'package:flutter/cupertino.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-const String baseURL = "http://10.0.2.2:8000/api/";
+// const String baseURL = "http://10.0.2.2:8000/api/";
+const String baseURL = "http://192.168.1.8/api/";
 
 class ApiServiceRegister {
   Future<Map<String, dynamic>> registerUser({
